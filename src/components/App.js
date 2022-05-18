@@ -11,6 +11,8 @@ import MovieHeader from './MovieHeader';
 import AddMovieForm from './AddMovieForm';
 import FavoriteMovieList from './FavoriteMovieList';
 
+import * as actions from '../actions/favoritesActions'
+
 const App = props => {
   const displayFavorites = true;
 
